@@ -1,11 +1,12 @@
 import Footer from "../Footer";
 import Navbar from "../Navbar";
+import { PropTypes } from "prop-types";
 
-export default function Menu() {
+export default function Menu({showCondition=true}) {
   return (
     <div>
 
-        <Navbar/>
+      {showCondition && <Navbar prop="Menu"/>}
 
         {/* Menu Start */}
 <div className="container-xxl py-5">
@@ -105,7 +106,11 @@ export default function Menu() {
 </div>
 {/* <!-- Menu End --> */}
 
-            <Footer/>
+            {showCondition && <Footer/>}
     </div>
   )
+}
+
+Menu.propTypes = {
+  showCondition: PropTypes.bool,
 }

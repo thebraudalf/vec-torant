@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
+import { PropTypes } from "prop-types";
 
-export default function Navbar() {
+export default function Navbar({prop="Home",img="src/assets/img/clay-banks-AZDyU1hXtCE-unsplash.jpg"}) {
   return (
     <div>
        {/* Navbar & Hero Start */}
@@ -14,8 +15,8 @@ export default function Navbar() {
             </button>
             <div className="collapse navbar-collapse" id="navbarCollapse">
               <div className="navbar-nav ms-auto py-0 pe-4">
-                <Link to={"/"} className="nav-item nav-link">Home</Link>
-                <Link to={"/about"} className="nav-item nav-link active">About</Link>
+                <Link to={"/"} className="nav-item nav-link active">Home</Link>
+                <Link to={"/about"} className="nav-item nav-link">About</Link>
                 <Link to={"/services"} className="nav-item nav-link">Service</Link>
                 <Link to={"/menu"} className="nav-item nav-link">Menu</Link>
                 <div className="nav-item dropdown">
@@ -34,12 +35,12 @@ export default function Navbar() {
   
           <div className="container-xxl py-5 bg-dark hero-header mb-5">
             <div className="container text-center my-5 pt-5 pb-4">
-              <h1 className="display-3 text-white mb-3 animated slideInDown">About Us</h1>
+              <h1 className="display-3 text-white mb-3 animated slideInDown">{prop}</h1>
               <nav aria-label="breadcrumb">
                 <ol className="breadcrumb justify-content-center text-uppercase">
                   <li className="breadcrumb-item"><Link href="#">Home</Link></li>
                   <li className="breadcrumb-item"><Link href="#">Pages</Link></li>
-                  <li className="breadcrumb-item text-white active" aria-current="page">About</li>
+                  <li className="breadcrumb-item text-white active" aria-current="page">{prop}</li>
                 </ol>
               </nav>
             </div>
@@ -48,4 +49,8 @@ export default function Navbar() {
         {/* Navbar & Hero End */}
     </div>
   )
+}
+
+Navbar.propTypes = {
+  prop: PropTypes.string,
 }

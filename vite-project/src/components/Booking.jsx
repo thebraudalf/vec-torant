@@ -1,10 +1,11 @@
 import Navbar from "../Navbar"
 import Footer from "../Footer"
+import { PropTypes } from "prop-types"
 
-export default function Booking() {
+export default function Booking({showCondition=true}) {
   return (
-    <div>
-        <Navbar />
+    <>
+      {showCondition && <Navbar prop="Booking"/>}
 
 {/* <!-- Reservation Start --> */}
 <div className="container-xxl py-5 px-0 wow fadeInUp" data-wow-delay="0.1s">
@@ -99,7 +100,6 @@ export default function Booking() {
             src=""
             id="video"
             allowFullScreen
-            allow="autoplay"
             title="Reservation Video"
           ></iframe>
         </div>
@@ -109,7 +109,11 @@ export default function Booking() {
 </div>
 {/* <!-- Reservation End --> */}
 
-<Footer />
-    </div>
+{showCondition && <Footer/>}
+    </>
   )
+}
+
+Booking.propTypes = {
+  showCondition: PropTypes.bool
 }

@@ -1,10 +1,10 @@
 import Navbar from '../Navbar'
 import Footer from '../Footer'
 
-export default function Team() {
+export default function Team({showCondition=true,subTeam=true}) {
   return (
     <div>
-        <Navbar/>
+      {showCondition && <Navbar prop='Team'/>}
 
         {/* <!-- Team Start --> */}
       <div className="container-xxl pt-5 pb-3">
@@ -70,6 +70,8 @@ export default function Team() {
                 </div>
               </div>
             </div>
+            {subTeam && 
+            <>
             <div className="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
               <div className="team-item text-center rounded overflow-hidden">
                 <div className="rounded-circle overflow-hidden m-4">
@@ -126,12 +128,14 @@ export default function Team() {
                 </div>
               </div>
             </div>
+            </>
+}
           </div>
         </div>
       </div>
       {/* <!-- Team End --> */}
 
-        <Footer/>
+        {showCondition && <Footer/>}
     </div>
   )
 }

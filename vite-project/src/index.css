@@ -82,6 +82,17 @@
 
 
 /*** Navbar ***/
+.navbar{
+  /* backdrop-filter: blur(1px); */
+  overflow: hidden;
+}
+.navbar-collapse{
+  backdrop-filter: blur(15px);
+  border-radius: 50px;
+  padding-right: 5vw;
+  margin-right: -3vw;
+}
+
 .navbar-dark .navbar-nav .nav-link {
   position: relative;
   margin-left: 25px;
@@ -152,7 +163,7 @@
 
 /*** Hero Header ***/
 .hero-header {
-  background: linear-gradient(rgba(15, 23, 43, .9), rgba(15, 23, 43, .9)), url(../img/bg-hero.jpg);
+  background: url(./assets/img/clay-banks-AZDyU1hXtCE-unsplash.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;

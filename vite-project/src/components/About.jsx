@@ -4,7 +4,7 @@ import Navbar from "../Navbar";
 export default function About({ showCondition = true, teamShow=true }) {
   return (
     <div className="container-xxl bg-white p-0">
-      {showCondition && <Navbar />}
+      {showCondition && <Navbar prop="About"/>}
       {/* About Start */}
       <div className="container-xxl py-5">
         <div className="container">

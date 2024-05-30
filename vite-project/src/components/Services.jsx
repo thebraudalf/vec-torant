@@ -4,7 +4,7 @@ import Navbar from "../Navbar";
 export default function Services({showCondition = true}) {
   return (
     <div>
-       {showCondition && <Navbar/>}
+       {showCondition && <Navbar prop="Services"/>}
         <div className="container-xxl py-5">
       <div className="container">
         {
