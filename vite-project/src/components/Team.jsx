@@ -17,10 +17,10 @@ export default function Team({showCondition=true,subTeam=true}) {
             <div className="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
               <div className="team-item text-center rounded overflow-hidden">
                 <div className="rounded-circle overflow-hidden m-4">
-                  <img className="img-fluid" src="img/team-1.jpg" alt="Team Member" />
+                  <img className="img-fluid" src="src/assets/img/team-4.jpg" alt="Team Member" />
                 </div>
                 <h5 className="mb-0">Full Name</h5>
-                <small>Designation</small>
+                <small>Founder & CEO</small>
                 <div className="d-flex justify-content-center mt-3">
                   <a className="btn btn-square btn-primary mx-1" href="#"><i className="fab fa-facebook-f"></i></a>
                   <a className="btn btn-square btn-primary mx-1" href="#"><i className="fab fa-twitter"></i></a>
@@ -31,10 +31,10 @@ export default function Team({showCondition=true,subTeam=true}) {
             <div className="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
               <div className="team-item text-center rounded overflow-hidden">
                 <div className="rounded-circle overflow-hidden m-4">
-                  <img className="img-fluid" src="img/team-2.jpg" alt="Team Member" />
+                  <img className="img-fluid" src="src/assets/img/chef.jpg" alt="Team Member" />
                 </div>
                 <h5 className="mb-0">Full Name</h5>
-                <small>Designation</small>
+                <small>Manager (Vacation)</small>
                 <div className="d-flex justify-content-center mt-3">
                   <a className="btn btn-square btn-primary mx-1" href="#"><i className="fab fa-facebook-f"></i></a>
                   <a className="btn btn-square btn-primary mx-1" href="#"><i className="fab fa-twitter"></i></a>
@@ -45,10 +45,10 @@ export default function Team({showCondition=true,subTeam=true}) {
             <div className="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
               <div className="team-item text-center rounded overflow-hidden">
                 <div className="rounded-circle overflow-hidden m-4">
-                  <img className="img-fluid" src="img/team-3.jpg" alt="Team Member" />
+                  <img className="img-fluid" src="src/assets/img/team-3.jpg" alt="Team Member" />
                 </div>
                 <h5 className="mb-0">Full Name</h5>
-                <small>Designation</small>
+                <small>Manager (Restaurant)</small>
                 <div className="d-flex justify-content-center mt-3">
                   <a className="btn btn-square btn-primary mx-1" href="#"><i className="fab fa-facebook-f"></i></a>
                   <a className="btn btn-square btn-primary mx-1" href="#"><i className="fab fa-twitter"></i></a>
@@ -59,10 +59,10 @@ export default function Team({showCondition=true,subTeam=true}) {
             <div className="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
               <div className="team-item text-center rounded overflow-hidden">
                 <div className="rounded-circle overflow-hidden m-4">
-                  <img className="img-fluid" src="img/team-4.jpg" alt="Team Member" />
+                  <img className="img-fluid" src="src/assets/img/depositphotos_174777760-stock-photo-handsome-bodyguard-listening-message-security1.jpg" alt="Team Member" />
                 </div>
                 <h5 className="mb-0">Full Name</h5>
-                <small>Designation</small>
+                <small>Security Arrangement</small>
                 <div className="d-flex justify-content-center mt-3">
                   <a className="btn btn-square btn-primary mx-1" href="#"><i className="fab fa-facebook-f"></i></a>
                   <a className="btn btn-square btn-primary mx-1" href="#"><i className="fab fa-twitter"></i></a>

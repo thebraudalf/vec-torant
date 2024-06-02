@@ -25,8 +25,8 @@ export default function Booking({showCondition=true}) {
     </div>
     <div className="col-md-6 bg-dark d-flex align-items-center">
       <div className="p-5 wow fadeInUp" data-wow-delay="0.2s">
-        <h5 className="section-title ff-secondary text-start text-primary fw-normal">Reservation</h5>
-        <h1 className="text-white mb-4">Book A Table Online</h1>
+        <h5 className="section-title ff-secondary text-start text-primary fw-normal">Tell us your Plans</h5>
+        <h1 className="text-white mb-4">Discuss A Vacation Online <p className="note">Note: We will contact you after submitting a vacation plan</p></h1>
         <form>
           <div className="row g-3">
             <div className="col-md-6">

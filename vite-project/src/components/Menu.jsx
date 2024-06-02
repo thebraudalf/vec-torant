@@ -1,8 +1,10 @@
 import Footer from "../Footer";
 import Navbar from "../Navbar";
+import arrBreakfast from "../images";
 import { PropTypes } from "prop-types";
 
 export default function Menu({showCondition=true}) {
+  const img = arrBreakfast;
   return (
     <div>
 
@@ -48,13 +50,13 @@ export default function Menu({showCondition=true}) {
       <div className="tab-content">
         <div id="tab-1" className="tab-pane fade show p-0 active">
           <div className="row g-4">
-            {[...Array(8)].map((_, i) => (
+            {img.map((img, i) => (
               <div className="col-lg-6" key={i}>
                 <div className="d-flex align-items-center">
-                  <img className="flex-shrink-0 img-fluid rounded" src={`img/menu-${i + 1}.jpg`} alt="" style={{ width: "80px" }} />
+                  <img className="flex-shrink-0 object-fit-cover img-fluid rounded" src={img} alt="" style={{ width: "80px", height: "80px" }} />
                   <div className="w-100 d-flex flex-column text-start ps-4">
                     <h5 className="d-flex justify-content-between border-bottom pb-2">
-                      <span>Chicken Burger</span>
+                      <span>Food Name</span>
                       <span className="text-primary">$115</span>
                     </h5>
                     <small className="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small>
@@ -72,7 +74,7 @@ export default function Menu({showCondition=true}) {
                   <img className="flex-shrink-0 img-fluid rounded" src={`img/menu-${i + 1}.jpg`} alt="" style={{ width: "80px" }} />
                   <div className="w-100 d-flex flex-column text-start ps-4">
                     <h5 className="d-flex justify-content-between border-bottom pb-2">
-                      <span>Chicken Burger</span>
+                      <span>Food Name</span>
                       <span className="text-primary">$115</span>
                     </h5>
                     <small className="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small>
@@ -90,7 +92,7 @@ export default function Menu({showCondition=true}) {
                   <img className="flex-shrink-0 img-fluid rounded" src={`img/menu-${i + 1}.jpg`} alt="" style={{ width: "80px" }} />
                   <div className="w-100 d-flex flex-column text-start ps-4">
                     <h5 className="d-flex justify-content-between border-bottom pb-2">
-                      <span>Chicken Burger</span>
+                      <span>Food Name</span>
                       <span className="text-primary">$115</span>
                     </h5>
                     <small className="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small>

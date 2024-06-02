@@ -1,5 +1,6 @@
 import Footer from "../Footer";
 import Navbar from "../Navbar";
+import img from '../assets/img/c7fc6d35e913aef46814d4c8fa7429a8-removebg-preview.png'
 
 export default function About({ showCondition = true, teamShow=true }) {
   return (
@@ -7,40 +8,40 @@ export default function About({ showCondition = true, teamShow=true }) {
       {showCondition && <Navbar prop="About"/>}
       {/* About Start */}
       <div className="container-xxl py-5">
-        <div className="container">
+        <div className="container-fluid">
           <div className="row g-5 align-items-center">
             <div className="col-lg-6">
               <div className="row g-3">
                 <div className="col-6 text-start">
                   <img
-                    className="img-fluid rounded w-100 wow zoomIn"
+                    className="img-fluid rounded w-100 h-100 object-fit-cover wow zoomIn"
                     data-wow-delay="0.1s"
-                    src="img/about-1.jpg"
+                    src={"/src/assets/img/peter-thomas-qXbueROjM9I-unsplash.jpg"}
                     alt="About 1"
-                  />
+                    />
                 </div>
                 <div className="col-6 text-start">
                   <img
                     className="img-fluid rounded w-75 wow zoomIn"
                     data-wow-delay="0.3s"
-                    src="img/about-2.jpg"
+                    src="src/assets/img/about-4.jpg"
                     alt="About 2"
                     style={{ marginTop: "25%" }}
-                  />
+                    />
                 </div>
                 <div className="col-6 text-end">
                   <img
-                    className="img-fluid rounded w-75 wow zoomIn"
+                    className="img-fluid rounded w-100 h-75 object-fit-cover wow zoomIn"
                     data-wow-delay="0.5s"
-                    src="img/about-3.jpg"
+                    src="src/assets/img/Chilis-New-Concept-Rendering-exterior-1.jpg"
                     alt="About 3"
-                  />
+                    />
                 </div>
                 <div className="col-6 text-end">
                   <img
-                    className="img-fluid rounded w-100 wow zoomIn"
+                    className="img-fluid rounded w-100 h-100 wow zoomIn"
                     data-wow-delay="0.7s"
-                    src="img/about-4.jpg"
+                    src={"src/assets/img/premium_photo-1668916513964-fa8e252bafaf-transformed.jpeg"}
                     alt="About 4"
                   />
                 </div>
@@ -52,7 +53,7 @@ export default function About({ showCondition = true, teamShow=true }) {
               </h5>
               <h1 className="mb-4">
                 Welcome to <i className="fa fa-utensils text-primary me-2"></i>
-                Restoran
+                Vec-torant
               </h1>
               <p className="mb-4">
                 Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit.

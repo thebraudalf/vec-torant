@@ -18,7 +18,7 @@ export default function Testimonial({showCondition=true}) {
           <h1 className="mb-5">Our Clients Say!!!</h1>
         </div>
         <div className="carousel testimonial-carousel">
-        <Carousel autoPlay={true} infiniteLoop={true} showArrows={true} centerMode={true} centerSlidePercentage={50} showStatus={false}>
+        <Carousel className='carl' autoPlay={true} infiniteLoop={true} showArrows={true} centerMode={true} centerSlidePercentage={30} showStatus={false}>
           <div className="testimonial-item wow bg-transparent border rounded p-4">
             <i className="fa fa-quote-left fa-2x text-primary mb-3"></i>
             <p>Dolor et eos labore, stet justo sed est sed. Diam sed sed dolor stet amet eirmod eos labore diam</p>

@@ -53,4 +53,5 @@ export default function Navbar({prop="Home",img="src/assets/img/clay-banks-AZDyU
 
 Navbar.propTypes = {
   prop: PropTypes.string,
-}
+  img: PropTypes.string,
+};
