@@ -7,6 +7,7 @@ import Contact from "./components/Contact";
 import Booking from "./components/Booking";
 import Team from "./components/Team";
 import Testimonial from "./components/Testimonial";
+import Orders from "./components/Orders";
 
 export default function Router() {
   return (
@@ -20,6 +21,7 @@ export default function Router() {
         <Route path="/booking" element={<Booking/>}/>
         <Route path="/team" element={<Team/>}/>
         <Route path="/testimonial" element={<Testimonial/>}/>
+        <Route path="/orders" element={<Orders/>}/>
       </Routes>
     </BrowserRouter>
   );

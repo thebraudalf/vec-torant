@@ -5,9 +5,18 @@ import breakfast4 from '/src/assets/img/peanut-butter-and-honey-sandwich_bfb4a7b
 import breakfast5 from '/src/assets/img/Breakfast-Cookies.jpg'
 import breakfast6 from '/src/assets/img/bread-omelette.jpg'
 import breakfast7 from '/src/assets/img/fluffy-pancakes-1675719604-657229c830876.jpg'
-import breakfast8 from '/src/assets/img/fluffy-pancakes-1675719604-657229c830876.jpg'
+import breakfast8 from '/src/assets/img/Muesli-Recipe-10.jpg'
 
-    const arrBreakfast = [breakfast1,breakfast2,breakfast3,breakfast4,breakfast5,breakfast6,breakfast7,breakfast8];
+    const arrBreakfast = [
+        {img:breakfast1, name:"Refreshing Shakes", price:10},
+        {img:breakfast2, name:"Kadak Chai", price:10},
+        {img:breakfast3, name:"Boiled Eggs", price:10},
+        {img:breakfast4, name:"Peanut Bread", price:10},
+        {img:breakfast5, name:"Cookies", price:10},
+        {img:breakfast6, name:"Omlette Bread", price:10},
+        {img:breakfast7, name:"PanCakes", price:10},
+        {img:breakfast8, name:"Muesli", price:10}
+    ];
     
 export default arrBreakfast
 

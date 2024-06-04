@@ -1,16 +1,21 @@
+import { useContext } from "react";
+import {DataContext} from '../Context'
 import Footer from "../Footer";
 import Navbar from "../Navbar";
 import arrBreakfast from "../images";
 import { PropTypes } from "prop-types";
 
 export default function Menu({showCondition=true}) {
-  const img = arrBreakfast;
+  const breakfast = arrBreakfast;
+  const {items,setItems} = useContext(DataContext);
   return (
     <div>
 
       {showCondition && <Navbar prop="Menu"/>}
 
+      
         {/* Menu Start */}
+
 <div className="container-xxl py-5">
   <div className="container">
     <div className="text-center wow fadeInUp" data-wow-delay="0.1s">
@@ -50,14 +55,14 @@ export default function Menu({showCondition=true}) {
       <div className="tab-content">
         <div id="tab-1" className="tab-pane fade show p-0 active">
           <div className="row g-4">
-            {img.map((img, i) => (
-              <div className="col-lg-6" key={i}>
+            {breakfast.map((para, i) => (
+              <div className="col-lg-6" id="foodItems" key={i} onClick={()=>{setItems([...items, {id:i,img:para.img,name:para.name,price:para.price}])}}>
                 <div className="d-flex align-items-center">
-                  <img className="flex-shrink-0 object-fit-cover img-fluid rounded" src={img} alt="" style={{ width: "80px", height: "80px" }} />
+                  <img className="flex-shrink-0 object-fit-cover img-fluid rounded" src={para.img} alt="" style={{ width: "80px", height: "80px" }} />
                   <div className="w-100 d-flex flex-column text-start ps-4">
                     <h5 className="d-flex justify-content-between border-bottom pb-2">
-                      <span>Food Name</span>
-                      <span className="text-primary">$115</span>
+                      <span>{para.name}</span>
+                      <span className="text-primary">{para.price}/-</span>
                     </h5>
                     <small className="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small>
                   </div>

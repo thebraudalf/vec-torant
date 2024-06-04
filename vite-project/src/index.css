@@ -84,7 +84,7 @@
 /*** Navbar ***/
 .navbar{
   /* backdrop-filter: blur(1px); */
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 .navbar-collapse{
   backdrop-filter: blur(15px);
@@ -241,6 +241,16 @@
   border-bottom: 2px solid var(--primary);
 }
 
+#foodItems:hover{
+  /* opacity: 0.8; */
+  background-color: var(--primary);
+  cursor: pointer;
+  color: white;
+}
+#foodItems:hover .text-primary{
+  color: white !important;
+}
+
 
 /*** Youtube Video ***/
 .video {
@@ -383,7 +393,7 @@
   border-radius: 38px 38px 0 0;
 }
 
-/*** Boking ***/
+/*** Booking ***/
 .note{
   font-size: x-small !important;
 }
@@ -393,6 +403,10 @@
 .testimonial-item{
   margin-left: 25px;
   margin-right: 25px;
+}
+
+.control-arrow{
+  background-color: #FEA116 !important;
 }
 
 /*** Footer ***/

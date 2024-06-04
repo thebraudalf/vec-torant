@@ -1,9 +1,12 @@
-import Router from './Router'
+import Context from "./Context";
+import Router from "./Router";
 
 export default function App() {
   return (
-    <div>
-    <Router/>
-    </div>
-  )
+    <>
+      <Context>
+        <Router />
+      </Context>
+    </>
+  );
 }
