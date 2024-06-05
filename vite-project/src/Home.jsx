@@ -10,7 +10,7 @@ import Testimonial from "./components/Testimonial";
 export default function Home() {
   return (
     <div className="container-xxl bg-white p-0">
-      <Navbar prop="Home" img={"clay-banks-AZDyU1hXtCE-unsplash.jpg"}/>
+      <Navbar prop="Home"/>
       <Services showCondition={false} />
       <About showCondition={false} teamShow={false} />
       <Menu showCondition={false}/>

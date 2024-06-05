@@ -11,7 +11,7 @@ export default function Menu({showCondition=true}) {
   return (
     <div>
 
-      {showCondition && <Navbar prop="Menu"/>}
+      {showCondition && <Navbar prop="Menu" img="src/assets/img/download1.png"/>}
 
       
         {/* Menu Start */}

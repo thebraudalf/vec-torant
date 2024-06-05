@@ -1,12 +1,19 @@
 import { Link } from "react-router-dom";
 import PropTypes from "prop-types";
+import { useEffect } from "react";
 
-export default function Navbar({ prop = "Home" }) {
+export default function Navbar({ prop = "Home", img= "src/assets/img/clay-banks-AZDyU1hXtCE-unsplash.jpg" }) {
+  useEffect(() => {
+    const hero_header = document.querySelector(".hero-header");
+    hero_header.style.backgroundImage = `url(${img})`;
+  }, [img]);
+  
+  
   return (
     <div>
       {/* Navbar & Hero Start */}
       <div className="container-xxl position-relative p-0">
-        <nav className="navbar navbar-expand-lg navbar-dark bg-dark px-4 px-lg-5 py-3 py-lg-0">
+        <nav className="navbar mt-1 navbar-expand-lg navbar-dark bg-dark px-4 px-lg-5 py-3 py-lg-0">
           <Link to="/" className="navbar-brand p-0">
             <h1 className="text-primary m-0"><i className="fa fa-utensils me-3"></i>Vectorant</h1>
           </Link>

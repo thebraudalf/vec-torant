@@ -5,7 +5,7 @@ import { PropTypes } from "prop-types"
 export default function Booking({showCondition=true}) {
   return (
     <>
-      {showCondition && <Navbar prop="Booking"/>}
+      {showCondition && <Navbar prop="Booking" img="/src/assets/img/peter-thomas-qXbueROjM9I-unsplash.jpg"/>}
 
 {/* <!-- Reservation Start --> */}
 <div className="container-xxl py-5 px-0 wow fadeInUp" data-wow-delay="0.1s">

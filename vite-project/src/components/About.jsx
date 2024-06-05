@@ -1,11 +1,11 @@
 import Footer from "../Footer";
 import Navbar from "../Navbar";
-import img from '../assets/img/c7fc6d35e913aef46814d4c8fa7429a8-removebg-preview.png'
+import img from '../assets/img/88f18ce59ec1735607f46caa91c9a0fa.jpg'
 
 export default function About({ showCondition = true, teamShow=true }) {
   return (
     <div className="container-xxl bg-white p-0">
-      {showCondition && <Navbar prop="About"/>}
+      {showCondition && <Navbar prop="About" img={img}/>}
       {/* About Start */}
       <div className="container-xxl py-5">
         <div className="container-fluid">
@@ -33,7 +33,7 @@ export default function About({ showCondition = true, teamShow=true }) {
                   <img
                     className="img-fluid rounded w-100 h-75 object-fit-cover wow zoomIn"
                     data-wow-delay="0.5s"
-                    src="src/assets/img/Chilis-New-Concept-Rendering-exterior-1.jpg"
+                    src="src/assets/img/download1.png"
                     alt="About 3"
                     />
                 </div>
@@ -70,7 +70,7 @@ export default function About({ showCondition = true, teamShow=true }) {
                   <div className="d-flex align-items-center border-start border-5 border-primary px-3">
                     <h1
                       className="flex-shrink-0 display-5 text-primary mb-0"
-                      data-toggle="counter-up"
+                        id="counter"
                     >
                       15
                     </h1>
@@ -84,7 +84,7 @@ export default function About({ showCondition = true, teamShow=true }) {
                   <div className="d-flex align-items-center border-start border-5 border-primary px-3">
                     <h1
                       className="flex-shrink-0 display-5 text-primary mb-0"
-                      data-toggle="counter-up"
+                        id="counter"
                     >
                       50
                     </h1>
@@ -112,7 +112,7 @@ export default function About({ showCondition = true, teamShow=true }) {
             <h5 className="section-title ff-secondary text-center text-primary fw-normal">
               Team Members
             </h5>
-            <h1 className="mb-5">Our Master Chefs</h1>
+            <h1 className="mb-5">Our Master Crew</h1>
           </div>
           <div className="row g-4">
             <div
