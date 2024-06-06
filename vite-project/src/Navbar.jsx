@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import PropTypes from "prop-types";
 import { useEffect } from "react";
 
-export default function Navbar({ prop = "Home", img= "src/assets/img/clay-banks-AZDyU1hXtCE-unsplash.jpg" }) {
+export default function Navbar({ prop = "Home", img= "src/assets/img/download2.png" }) {
   useEffect(() => {
     const hero_header = document.querySelector(".hero-header");
     hero_header.style.backgroundImage = `url(${img})`;
@@ -27,17 +27,17 @@ export default function Navbar({ prop = "Home", img= "src/assets/img/clay-banks-
               <Link to="/menu" className="nav-item nav-link">Menu</Link>
               <Link to="/booking" className="nav-item nav-link">Booking</Link>
               
-              <Link className="dropdown nav-item">
-  <a className="dropdown-toggle nav-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <span className="dropdown nav-item">
+  <Link className="dropdown-toggle nav-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
     Pages
-  </a>
+  </Link>
 
   <ul className="dropdown-menu">
     <li><Link className="dropdown-item" to={"/services"}>Services</Link></li>
     <li><Link className="dropdown-item" to={"/team"}>Team</Link></li>
     <li><Link className="dropdown-item" to={"/testimonial"}>Testimonial</Link></li>
   </ul>
-              </Link>
+              </span>
 
               <Link to="/contact" className="nav-item nav-link">Contact</Link>
             </div>

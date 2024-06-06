@@ -4,7 +4,7 @@ import Navbar from '../Navbar';
 export default function Contact() {
   return (
     <div>
-      <Navbar prop='Contact' img='src/assets/img/bb3939bc-8f6d-47fe-bb19-0750daccedc6.png'/>
+      <Navbar prop='Contact' img='src/assets/img/clay-banks-AZDyU1hXtCE-unsplash.jpg'/>
 
       {/* <!-- Contact Start --> */}
       <div className="container-xxl py-5">

@@ -1,5 +1,6 @@
 import Navbar from '../Navbar'
 import Footer from '../Footer'
+import { Link } from 'react-router-dom'
 
 export default function Team({showCondition=true,subTeam=true}) {
   return (
@@ -22,9 +23,9 @@ export default function Team({showCondition=true,subTeam=true}) {
                 <h5 className="mb-0">Alexander Smith</h5>
                 <small>Founder & CEO</small>
                 <div className="d-flex justify-content-center mt-3">
-                  <a className="btn btn-square btn-primary mx-1" href="#"><i className="fab fa-facebook-f"></i></a>
-                  <a className="btn btn-square btn-primary mx-1" href="#"><i className="fab fa-twitter"></i></a>
-                  <a className="btn btn-square btn-primary mx-1" href="#"><i className="fab fa-instagram"></i></a>
+                  <Link className="btn btn-square btn-primary mx-1" href="#"><i className="fab fa-facebook-f"></i></Link>
+                  <Link className="btn btn-square btn-primary mx-1" href="#"><i className="fab fa-twitter"></i></Link>
+                  <Link className="btn btn-square btn-primary mx-1" href="#"><i className="fab fa-instagram"></i></Link>
                 </div>
               </div>
             </div>
@@ -36,9 +37,9 @@ export default function Team({showCondition=true,subTeam=true}) {
                 <h5 className="mb-0">Michael Wilson</h5>
                 <small>Manager (Vacation)</small>
                 <div className="d-flex justify-content-center mt-3">
-                  <a className="btn btn-square btn-primary mx-1" href="#"><i className="fab fa-facebook-f"></i></a>
-                  <a className="btn btn-square btn-primary mx-1" href="#"><i className="fab fa-twitter"></i></a>
-                  <a className="btn btn-square btn-primary mx-1" href="#"><i className="fab fa-instagram"></i></a>
+                  <Link className="btn btn-square btn-primary mx-1" href="#"><i className="fab fa-facebook-f"></i></Link>
+                  <Link className="btn btn-square btn-primary mx-1" href="#"><i className="fab fa-twitter"></i></Link>
+                  <Link className="btn btn-square btn-primary mx-1" href="#"><i className="fab fa-instagram"></i></Link>
                 </div>
               </div>
             </div>
@@ -50,9 +51,9 @@ export default function Team({showCondition=true,subTeam=true}) {
                 <h5 className="mb-0">Daniel Smith</h5>
                 <small>Manager (Restaurant)</small>
                 <div className="d-flex justify-content-center mt-3">
-                  <a className="btn btn-square btn-primary mx-1" href="#"><i className="fab fa-facebook-f"></i></a>
-                  <a className="btn btn-square btn-primary mx-1" href="#"><i className="fab fa-twitter"></i></a>
-                  <a className="btn btn-square btn-primary mx-1" href="#"><i className="fab fa-instagram"></i></a>
+                  <Link className="btn btn-square btn-primary mx-1" href="#"><i className="fab fa-facebook-f"></i></Link>
+                  <Link className="btn btn-square btn-primary mx-1" href="#"><i className="fab fa-twitter"></i></Link>
+                  <Link className="btn btn-square btn-primary mx-1" href="#"><i className="fab fa-instagram"></i></Link>
                 </div>
               </div>
             </div>
@@ -64,9 +65,9 @@ export default function Team({showCondition=true,subTeam=true}) {
                 <h5 className="mb-0">Benjamin Johnson</h5>
                 <small>Security Arrangement</small>
                 <div className="d-flex justify-content-center mt-3">
-                  <a className="btn btn-square btn-primary mx-1" href="#"><i className="fab fa-facebook-f"></i></a>
-                  <a className="btn btn-square btn-primary mx-1" href="#"><i className="fab fa-twitter"></i></a>
-                  <a className="btn btn-square btn-primary mx-1" href="#"><i className="fab fa-instagram"></i></a>
+                  <Link className="btn btn-square btn-primary mx-1" href="#"><i className="fab fa-facebook-f"></i></Link>
+                  <Link className="btn btn-square btn-primary mx-1" href="#"><i className="fab fa-twitter"></i></Link>
+                  <Link className="btn btn-square btn-primary mx-1" href="#"><i className="fab fa-instagram"></i></Link>
                 </div>
               </div>
             </div>
@@ -80,9 +81,9 @@ export default function Team({showCondition=true,subTeam=true}) {
                 <h5 className="mb-0">Full Name</h5>
                 <small>Designation</small>
                 <div className="d-flex justify-content-center mt-3">
-                  <a className="btn btn-square btn-primary mx-1" href="#"><i className="fab fa-facebook-f"></i></a>
-                  <a className="btn btn-square btn-primary mx-1" href="#"><i className="fab fa-twitter"></i></a>
-                  <a className="btn btn-square btn-primary mx-1" href="#"><i className="fab fa-instagram"></i></a>
+                  <Link className="btn btn-square btn-primary mx-1" href="#"><i className="fab fa-facebook-f"></i></Link>
+                  <Link className="btn btn-square btn-primary mx-1" href="#"><i className="fab fa-twitter"></i></Link>
+                  <Link className="btn btn-square btn-primary mx-1" href="#"><i className="fab fa-instagram"></i></Link>
                 </div>
               </div>
             </div>
@@ -94,9 +95,9 @@ export default function Team({showCondition=true,subTeam=true}) {
                 <h5 className="mb-0">Full Name</h5>
                 <small>Designation</small>
                 <div className="d-flex justify-content-center mt-3">
-                  <a className="btn btn-square btn-primary mx-1" href="#"><i className="fab fa-facebook-f"></i></a>
-                  <a className="btn btn-square btn-primary mx-1" href="#"><i className="fab fa-twitter"></i></a>
-                  <a className="btn btn-square btn-primary mx-1" href="#"><i className="fab fa-instagram"></i></a>
+                  <Link className="btn btn-square btn-primary mx-1" href="#"><i className="fab fa-facebook-f"></i></Link>
+                  <Link className="btn btn-square btn-primary mx-1" href="#"><i className="fab fa-twitter"></i></Link>
+                  <Link className="btn btn-square btn-primary mx-1" href="#"><i className="fab fa-instagram"></i></Link>
                 </div>
               </div>
             </div>
@@ -108,9 +109,9 @@ export default function Team({showCondition=true,subTeam=true}) {
                 <h5 className="mb-0">Full Name</h5>
                 <small>Designation</small>
                 <div className="d-flex justify-content-center mt-3">
-                  <a className="btn btn-square btn-primary mx-1" href="#"><i className="fab fa-facebook-f"></i></a>
-                  <a className="btn btn-square btn-primary mx-1" href="#"><i className="fab fa-twitter"></i></a>
-                  <a className="btn btn-square btn-primary mx-1" href="#"><i className="fab fa-instagram"></i></a>
+                  <Link className="btn btn-square btn-primary mx-1" href="#"><i className="fab fa-facebook-f"></i></Link>
+                  <Link className="btn btn-square btn-primary mx-1" href="#"><i className="fab fa-twitter"></i></Link>
+                  <Link className="btn btn-square btn-primary mx-1" href="#"><i className="fab fa-instagram"></i></Link>
                 </div>
               </div>
             </div>
@@ -122,9 +123,9 @@ export default function Team({showCondition=true,subTeam=true}) {
                 <h5 className="mb-0">Full Name</h5>
                 <small>Designation</small>
                 <div className="d-flex justify-content-center mt-3">
-                  <a className="btn btn-square btn-primary mx-1" href="#"><i className="fab fa-facebook-f"></i></a>
-                  <a className="btn btn-square btn-primary mx-1" href="#"><i className="fab fa-twitter"></i></a>
-                  <a className="btn btn-square btn-primary mx-1" href="#"><i className="fab fa-instagram"></i></a>
+                  <Link className="btn btn-square btn-primary mx-1" href="#"><i className="fab fa-facebook-f"></i></Link>
+                  <Link className="btn btn-square btn-primary mx-1" href="#"><i className="fab fa-twitter"></i></Link>
+                  <Link className="btn btn-square btn-primary mx-1" href="#"><i className="fab fa-instagram"></i></Link>
                 </div>
               </div>
             </div>

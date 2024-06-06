@@ -16,11 +16,11 @@ export default function Booking({showCondition=true}) {
           type="button"
           className="btn-play"
           data-bs-toggle="modal"
-          data-src="https://www.youtube.com/embed/DWRcNpR6Kdc"
           data-bs-target="#videoModal"
         >
           <span></span>
         </button>
+          <img src="src/assets/img/team-4.jpg" className="position-absolute z-1 videoThumb" alt="" />
       </div>
     </div>
     <div className="col-md-6 bg-dark d-flex align-items-center">
@@ -95,13 +95,14 @@ export default function Booking({showCondition=true}) {
       <div className="modal-body">
         {/* 16:9 aspect ratio */}
         <div className="ratio ratio-16x9">
-          <iframe
+          <video
             className="embed-responsive-item"
-            src=""
+            src="src/assets/img/invideo-ai-1080 Welcome to Vectorant Your Culinary and 2024-06-05(1) (online-video-cutter.com).mp4"
             id="video"
             allowFullScreen
+            controls
             title="Reservation Video"
-          ></iframe>
+          ></video>
         </div>
       </div>
     </div>
