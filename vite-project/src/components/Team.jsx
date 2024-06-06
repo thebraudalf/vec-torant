@@ -76,10 +76,10 @@ export default function Team({showCondition=true,subTeam=true}) {
             <div className="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
               <div className="team-item text-center rounded overflow-hidden">
                 <div className="rounded-circle overflow-hidden m-4">
-                  <img className="img-fluid" src="img/team-2.jpg" alt="Team Member" />
+                  <img className="img-fluid" src="src/assets/img/chef_in_uniform.jpeg" alt="Team Member" />
                 </div>
-                <h5 className="mb-0">Full Name</h5>
-                <small>Designation</small>
+                <h5 className="mb-0">John Paul</h5>
+                <small>Chef</small>
                 <div className="d-flex justify-content-center mt-3">
                   <Link className="btn btn-square btn-primary mx-1" href="#"><i className="fab fa-facebook-f"></i></Link>
                   <Link className="btn btn-square btn-primary mx-1" href="#"><i className="fab fa-twitter"></i></Link>
@@ -90,10 +90,10 @@ export default function Team({showCondition=true,subTeam=true}) {
             <div className="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
               <div className="team-item text-center rounded overflow-hidden">
                 <div className="rounded-circle overflow-hidden m-4">
-                  <img className="img-fluid" src="img/team-3.jpg" alt="Team Member" />
+                  <img className="img-fluid" src="src/assets/img/1696248310323.png" alt="Team Member" />
                 </div>
-                <h5 className="mb-0">Full Name</h5>
-                <small>Designation</small>
+                <h5 className="mb-0">Emma Rose</h5>
+                <small>Chef</small>
                 <div className="d-flex justify-content-center mt-3">
                   <Link className="btn btn-square btn-primary mx-1" href="#"><i className="fab fa-facebook-f"></i></Link>
                   <Link className="btn btn-square btn-primary mx-1" href="#"><i className="fab fa-twitter"></i></Link>
@@ -104,10 +104,10 @@ export default function Team({showCondition=true,subTeam=true}) {
             <div className="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
               <div className="team-item text-center rounded overflow-hidden">
                 <div className="rounded-circle overflow-hidden m-4">
-                  <img className="img-fluid" src="img/team-4.jpg" alt="Team Member" />
+                  <img className="img-fluid" src="src/assets/img/360_F_572230981_4X0ra8tqMPj1CPu8f2RXnt0NWtVBTC9g.jpg" alt="Team Member" />
                 </div>
-                <h5 className="mb-0">Full Name</h5>
-                <small>Designation</small>
+                <h5 className="mb-0">Anna Grace</h5>
+                <small>Chef</small>
                 <div className="d-flex justify-content-center mt-3">
                   <Link className="btn btn-square btn-primary mx-1" href="#"><i className="fab fa-facebook-f"></i></Link>
                   <Link className="btn btn-square btn-primary mx-1" href="#"><i className="fab fa-twitter"></i></Link>
@@ -118,10 +118,10 @@ export default function Team({showCondition=true,subTeam=true}) {
             <div className="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
               <div className="team-item text-center rounded overflow-hidden">
                 <div className="rounded-circle overflow-hidden m-4">
-                  <img className="img-fluid" src="img/team-1.jpg" alt="Team Member" />
+                  <img className="img-fluid" src="src/assets/img/Select-The-Best-From-This-Stellar-Range-Of-Mens-T-shirts-Louis-Philippe-Fashion-Blogs.jpg" alt="Team Member" />
                 </div>
-                <h5 className="mb-0">Full Name</h5>
-                <small>Designation</small>
+                <h5 className="mb-0">David James</h5>
+                <small>Vacation Planner</small>
                 <div className="d-flex justify-content-center mt-3">
                   <Link className="btn btn-square btn-primary mx-1" href="#"><i className="fab fa-facebook-f"></i></Link>
                   <Link className="btn btn-square btn-primary mx-1" href="#"><i className="fab fa-twitter"></i></Link>

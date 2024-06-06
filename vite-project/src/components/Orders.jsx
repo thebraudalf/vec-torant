@@ -27,6 +27,9 @@ export default function Cart() {
 
   return (
     <>
+    {!subTotal && 
+      <h3 className="p-5">There is nothing added for orders</h3>
+    }
       {subTotal && (
         <>
           <div

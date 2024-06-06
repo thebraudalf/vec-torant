@@ -22,7 +22,7 @@ export default function Navbar({ prop = "Home", img= "src/assets/img/download2.p
           </button>
           <div className="collapse navbar-collapse" id="navbarCollapse">
             <div className="navbar-nav ms-auto py-0 pe-4">
-              <Link to="/" className="nav-item nav-link active">Home</Link>
+              <Link to="/" className="nav-item nav-link">Home</Link>
               <Link to="/about" className="nav-item nav-link">About</Link>
               <Link to="/menu" className="nav-item nav-link">Menu</Link>
               <Link to="/booking" className="nav-item nav-link">Booking</Link>
@@ -31,7 +31,6 @@ export default function Navbar({ prop = "Home", img= "src/assets/img/download2.p
   <Link className="dropdown-toggle nav-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
     Pages
   </Link>
-
   <ul className="dropdown-menu">
     <li><Link className="dropdown-item" to={"/services"}>Services</Link></li>
     <li><Link className="dropdown-item" to={"/team"}>Team</Link></li>

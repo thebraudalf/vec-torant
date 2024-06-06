@@ -411,6 +411,15 @@
 
 
 /*** Testimonial ***/
+@media (max-width:958px) {
+  #testimonial{
+    display: none;
+  }
+  .navTesti{
+    display: none;
+  }
+}
+
 .testimonial-item{
   margin-left: 25px;
   margin-right: 25px;

@@ -11,7 +11,7 @@ export default function Testimonial({showCondition=true}) {
       {showCondition && <Navbar prop="Testimonial"/>}
 
       {/* <!-- Testimonial Start --> */}
-      <div className="container-xxl py-5 wow fadeInUp" data-wow-delay="0.1s">
+      <div className="container-xxl py-5 wow fadeInUp" data-wow-delay="0.1s" id='testimonial'>
       <div className="container">
         <div className="text-center">
           <h5 className="section-title ff-secondary text-center text-primary fw-normal">Testimonial</h5>
