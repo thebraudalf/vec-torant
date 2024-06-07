@@ -1,8 +1,9 @@
 import { Link } from "react-router-dom";
 import PropTypes from "prop-types";
 import { useEffect } from "react";
+import imgHero from "./assets/img/download2.png"
 
-export default function Navbar({ prop = "Home", img= "src/assets/img/download2.png" }) {
+export default function Navbar({ prop = "Home", img={imgHero} }) {
   useEffect(() => {
     const hero_header = document.querySelector(".hero-header");
     hero_header.style.backgroundImage = `url(${img})`;
