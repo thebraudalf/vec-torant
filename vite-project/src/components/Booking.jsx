@@ -1,11 +1,14 @@
 import Navbar from "../Navbar"
 import Footer from "../Footer"
 import { PropTypes } from "prop-types"
+import imgHero from "../assets/img/peter-thomas-qXbueROjM9I-unsplash.jpg"
+import videoThumb from "../assets/img/team-4.jpg"
+import video from "../assets/img/invideo-ai-1080 Welcome to Vectorant Your Culinary and 2024-06-05(1) (online-video-cutter.com).mp4"
 
 export default function Booking({showCondition=true}) {
   return (
     <>
-      {showCondition && <Navbar prop="Booking" img="/src/assets/img/peter-thomas-qXbueROjM9I-unsplash.jpg"/>}
+      {showCondition && <Navbar prop="Booking" img={imgHero}/>}
 
 {/* <!-- Reservation Start --> */}
 <div className="container-xxl py-5 px-0 wow fadeInUp" data-wow-delay="0.1s">
@@ -20,7 +23,7 @@ export default function Booking({showCondition=true}) {
         >
           <span></span>
         </button>
-          <img src="src/assets/img/team-4.jpg" className="position-absolute z-1 videoThumb" alt="" />
+          <img src={videoThumb} className="position-absolute z-1 videoThumb" alt="" />
       </div>
     </div>
     <div className="col-md-6 bg-dark d-flex align-items-center">
@@ -97,7 +100,7 @@ export default function Booking({showCondition=true}) {
         <div className="ratio ratio-16x9">
           <video
             className="embed-responsive-item"
-            src="src/assets/img/invideo-ai-1080 Welcome to Vectorant Your Culinary and 2024-06-05(1) (online-video-cutter.com).mp4"
+            src={video}
             id="video"
             allowFullScreen
             controls

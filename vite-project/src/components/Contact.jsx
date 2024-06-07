@@ -1,10 +1,11 @@
 import Footer from '../Footer';
 import Navbar from '../Navbar';
+import imgHero from '../assets/img/clay-banks-AZDyU1hXtCE-unsplash.jpg'
 
 export default function Contact() {
   return (
     <div>
-      <Navbar prop='Contact' img='src/assets/img/clay-banks-AZDyU1hXtCE-unsplash.jpg'/>
+      <Navbar prop='Contact' img={imgHero}/>
 
       {/* <!-- Contact Start --> */}
       <div className="container-xxl py-5">

@@ -7,6 +7,7 @@ import { PropTypes } from "prop-types";
 import { Bounce,ToastContainer,toast } from "react-toastify";
 import 'react-toastify/dist/ReactToastify.min.css';
 import { Link } from "react-router-dom";
+import imgHero from "../assets/img/download1.png";
 
 export default function Menu({showCondition=true}) {
   const breakfast = arrBreakfast;
@@ -26,7 +27,7 @@ export default function Menu({showCondition=true}) {
   return (
     <div>
 
-      {showCondition && <Navbar prop="Menu" img="src/assets/img/download1.png"/>}
+      {showCondition && <Navbar prop="Menu" img={imgHero}/>}
 
       
         {/* Menu Start */}

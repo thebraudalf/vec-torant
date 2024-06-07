@@ -1,13 +1,18 @@
 import { Link } from "react-router-dom";
 import Footer from "../Footer";
 import Navbar from "../Navbar";
-import img from "../assets/img/88f18ce59ec1735607f46caa91c9a0fa.jpg";
+import imgHero from "../assets/img/88f18ce59ec1735607f46caa91c9a0fa.jpg";
+import imgAbout1 from "../assets/img/peter-thomas-qXbueROjM9I-unsplash.jpg"
+import imgAbout2 from "../assets/img/about-4.jpg"
+import imgAbout3 from "../assets/img/download1.png"
+import imgAbout4 from "../assets/img/premium_photo-1668916513964-fa8e252bafaf-transformed.jpeg"
+
 import Team from "./Team";
 
 export default function About({ showCondition = true, teamShow = true }) {
   return (
     <div className="container-xxl bg-white p-0">
-      {showCondition && <Navbar prop="About" img={img} />}
+      {showCondition && <Navbar prop="About" img={imgHero} />}
       {/* About Start */}
       <div className="container-xxl py-5">
         <div className="container-fluid">
@@ -19,7 +24,7 @@ export default function About({ showCondition = true, teamShow = true }) {
                     className="img-fluid rounded w-100 h-100 object-fit-cover wow zoomIn"
                     data-wow-delay="0.1s"
                     src={
-                      "/src/assets/img/peter-thomas-qXbueROjM9I-unsplash.jpg"
+                      imgAbout1
                     }
                     alt="About 1"
                   />
@@ -28,7 +33,7 @@ export default function About({ showCondition = true, teamShow = true }) {
                   <img
                     className="img-fluid rounded w-75 wow zoomIn"
                     data-wow-delay="0.3s"
-                    src="src/assets/img/about-4.jpg"
+                    src={imgAbout2}
                     alt="About 2"
                     style={{ marginTop: "25%" }}
                   />
@@ -37,7 +42,7 @@ export default function About({ showCondition = true, teamShow = true }) {
                   <img
                     className="img-fluid rounded w-100 h-75 object-fit-cover wow zoomIn"
                     data-wow-delay="0.5s"
-                    src="src/assets/img/download1.png"
+                    src={imgAbout3}
                     alt="About 3"
                   />
                 </div>
@@ -46,7 +51,7 @@ export default function About({ showCondition = true, teamShow = true }) {
                     className="img-fluid rounded w-100 h-100 wow zoomIn"
                     data-wow-delay="0.7s"
                     src={
-                      "src/assets/img/premium_photo-1668916513964-fa8e252bafaf-transformed.jpeg"
+                      imgAbout4
                     }
                     alt="About 4"
                   />

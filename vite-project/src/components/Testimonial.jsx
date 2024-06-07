@@ -1,5 +1,9 @@
 import Footer from '../Footer';
 import Navbar from '../Navbar';
+import imgTesti1 from "../assets/img/testimonial-1.jpg"
+import imgTesti2 from "../assets/img/testimonial-2.jpg"
+import imgTesti3 from "../assets/img/testimonial-3.jpg"
+import imgTesti4 from "../assets/img/testimonial-4.jpg"
 import "react-responsive-carousel/lib/styles/carousel.css"
 import "react-responsive-carousel/lib/styles/carousel.min.css"
 import { Carousel } from 'react-responsive-carousel';
@@ -23,7 +27,7 @@ export default function Testimonial({showCondition=true}) {
             <i className="fa fa-quote-left fa-2x text-primary mb-3"></i>
             <p>Dolor et eos labore, stet justo sed est sed. Diam sed sed dolor stet amet eirmod eos labore diam</p>
             <div className="d-flex align-items-center">
-              <img className="img-fluid flex-shrink-0 rounded-circle" src={"/src/assets/img/testimonial-1.jpg"} style={{ width: '50px', height: '50px' }} alt="Client 1" />
+              <img className="img-fluid flex-shrink-0 rounded-circle" src={imgTesti1} style={{ width: '50px', height: '50px' }} alt="Client 1" />
               <div className="ps-3">
                 <h5 className="mb-1">Client Name</h5>
                 <small>Profession</small>
@@ -34,7 +38,7 @@ export default function Testimonial({showCondition=true}) {
             <i className="fa fa-quote-left fa-2x text-primary mb-3"></i>
             <p>Dolor et eos labore, stet justo sed est sed. Diam sed sed dolor stet amet eirmod eos labore diam</p>
             <div className="d-flex align-items-center">
-              <img className="img-fluid flex-shrink-0 rounded-circle" src={"/src/assets/img/testimonial-2.jpg"} style={{ width: '50px', height: '50px' }} alt="Client 2" />
+              <img className="img-fluid flex-shrink-0 rounded-circle" src={imgTesti2} style={{ width: '50px', height: '50px' }} alt="Client 2" />
               <div className="ps-3">
                 <h5 className="mb-1">Client Name</h5>
                 <small>Profession</small>
@@ -45,7 +49,7 @@ export default function Testimonial({showCondition=true}) {
             <i className="fa fa-quote-left fa-2x text-primary mb-3"></i>
             <p>Dolor et eos labore, stet justo sed est sed. Diam sed sed dolor stet amet eirmod eos labore diam</p>
             <div className="d-flex align-items-center">
-              <img className="img-fluid flex-shrink-0 rounded-circle" src={"/src/assets/img/testimonial-3.jpg"} style={{ width: '50px', height: '50px' }} alt="Client 3" />
+              <img className="img-fluid flex-shrink-0 rounded-circle" src={imgTesti3} style={{ width: '50px', height: '50px' }} alt="Client 3" />
               <div className="ps-3">
                 <h5 className="mb-1">Client Name</h5>
                 <small>Profession</small>
@@ -56,7 +60,7 @@ export default function Testimonial({showCondition=true}) {
             <i className="fa fa-quote-left fa-2x text-primary mb-3"></i>
             <p>Dolor et eos labore, stet justo sed est sed. Diam sed sed dolor stet amet eirmod eos labore diam</p>
             <div className="d-flex align-items-center">
-              <img className="img-fluid flex-shrink-0 rounded-circle" src={"/src/assets/img/testimonial-4.jpg"} style={{ width: '50px', height: '50px' }} alt="Client 4" />
+              <img className="img-fluid flex-shrink-0 rounded-circle" src={imgTesti4} style={{ width: '50px', height: '50px' }} alt="Client 4" />
               <div className="ps-3">
                 <h5 className="mb-1">Client Name</h5>
                 <small>Profession</small>
