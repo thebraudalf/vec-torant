@@ -3,13 +3,14 @@ import PropTypes from "prop-types";
 import { useEffect } from "react";
 import imgHero from "./assets/img/download2.png"
 
-export default function Navbar({ prop = "Home", img={imgHero} }) {
+export default function Navbar({ prop = "Home", img = imgHero }) {
   useEffect(() => {
     const hero_header = document.querySelector(".hero-header");
     hero_header.style.backgroundImage = `url(${img})`;
   }, [img]);
   
   
+
   return (
     <div>
       {/* Navbar & Hero Start */}
@@ -35,7 +36,7 @@ export default function Navbar({ prop = "Home", img={imgHero} }) {
   <ul className="dropdown-menu">
     <li><Link className="dropdown-item" to={"/services"}>Services</Link></li>
     <li><Link className="dropdown-item" to={"/team"}>Team</Link></li>
-    <li><Link className="dropdown-item" to={"/testimonial"}>Testimonial</Link></li>
+    <li><Link className="dropdown-item" id="testimonial" to={"/testimonial"}>Testimonial</Link></li>
   </ul>
               </span>
 
